@@ -1,0 +1,19 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Morpion",
+  "homePlayAs": "Jouer avec",
+  "homeCrossPlaysFirst": "La croix commence toujours",
+  "homeChooseOpponent": "Choisissez votre adversaire",
+  "botLevel": "{level, select, easy{Bot facile} medium{Bot moyen} hard{Bot difficile} other{Bot}}",
+  "gameStatusYourTurn": "À vous de jouer",
+  "gameStatusBotThinking": "Le bot réfléchit…",
+  "gameStatusYouWin": "Vous avez gagné !",
+  "gameStatusBotWins": "Le bot a gagné !",
+  "gameStatusDraw": "Match nul !",
+  "gameStatusBotFailed": "Le bot n’a pas pu jouer",
+  "gameRematch": "Revanche",
+  "gameHome": "Accueil",
+  "markPickerOption": "Jouer avec {mark, select, cross{la croix} circle{le rond} other{{mark}}}",
+  "cellEmpty": "Case {cell} vide",
+  "cellMarked": "{mark, select, cross{Croix} circle{Rond} other{{mark}}} en case {cell}"
+}

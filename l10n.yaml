@@ -1,0 +1,9 @@
+# Standard Flutter localization (gen-l10n): https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization
+arb-dir: lib/presentation/l10n/arb
+template-arb-file: app_en.arb
+output-dir: lib/presentation/l10n/generated
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false
+# Every message in the template needs a description for translators.
+required-resource-attributes: true

@@ -1,0 +1,90 @@
+{
+  "@@locale": "en",
+  "appTitle": "Tic Tac Toe",
+  "@appTitle": {
+    "description": "App name, shown as the window/tab title and on the home screen."
+  },
+  "homePlayAs": "Play as",
+  "@homePlayAs": {
+    "description": "Home screen heading above the cross/circle picker."
+  },
+  "homeCrossPlaysFirst": "Cross always plays first",
+  "@homeCrossPlaysFirst": {
+    "description": "Home screen hint below the mark picker."
+  },
+  "homeChooseOpponent": "Choose your opponent",
+  "@homeChooseOpponent": {
+    "description": "Home screen heading above the bot level buttons."
+  },
+  "botLevel": "{level, select, easy{Easy bot} medium{Medium bot} hard{Hard bot} other{Bot}}",
+  "@botLevel": {
+    "description": "Name of a bot difficulty level, on home buttons and the game screen header.",
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "gameStatusYourTurn": "Your turn",
+  "@gameStatusYourTurn": {
+    "description": "Game status when the human must play."
+  },
+  "gameStatusBotThinking": "Bot is thinking…",
+  "@gameStatusBotThinking": {
+    "description": "Game status while the bot computes its move."
+  },
+  "gameStatusYouWin": "You win!",
+  "@gameStatusYouWin": {
+    "description": "Game status when the human won."
+  },
+  "gameStatusBotWins": "The bot wins!",
+  "@gameStatusBotWins": {
+    "description": "Game status when the bot won."
+  },
+  "gameStatusDraw": "Draw!",
+  "@gameStatusDraw": {
+    "description": "Game status when the board is full without a winner."
+  },
+  "gameStatusBotFailed": "The bot could not play",
+  "@gameStatusBotFailed": {
+    "description": "Game status when the bot engine failed to provide a move."
+  },
+  "gameRematch": "Rematch",
+  "@gameRematch": {
+    "description": "Button starting a new game at the same level."
+  },
+  "gameHome": "Home",
+  "@gameHome": {
+    "description": "Button going back to the home screen."
+  },
+  "markPickerOption": "Play as {mark, select, cross{cross} circle{circle} other{{mark}}}",
+  "@markPickerOption": {
+    "description": "Screen reader label of a mark option on the home screen.",
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "cellEmpty": "Empty cell {cell}",
+  "@cellEmpty": {
+    "description": "Screen reader label of an empty board cell, numbered 1 to 9.",
+    "placeholders": {
+      "cell": {
+        "type": "int"
+      }
+    }
+  },
+  "cellMarked": "{mark, select, cross{Cross} circle{Circle} other{{mark}}} at cell {cell}",
+  "@cellMarked": {
+    "description": "Screen reader label of a played board cell, numbered 1 to 9.",
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      },
+      "cell": {
+        "type": "int"
+      }
+    }
+  }
+}
